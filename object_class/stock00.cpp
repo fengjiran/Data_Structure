@@ -1,7 +1,10 @@
+#include "stdafx.h"
 #include <iostream>
 #include "stock00.h"
 using namespace std;
-
+//using std::cout;
+//using std::endl;
+//using std::string;
 
 void Stock::acquire(const string& co, long n, double pr)
 {
@@ -63,8 +66,8 @@ void Stock::update(double price)
 
 void Stock::show()
 {
-	cout << "Company: " << company
-		<< " Shares: " << shares << endl
-		<< " Share Price: $" << share_val
-		<< " Total Worth: $" << total_val << endl;
+	cout << "Company: " << company << endl
+		<< "Shares: " << shares << endl
+		<< "Share Price: $" << share_val << endl
+		<< "Total Worth: $" << total_val << endl;
 }
