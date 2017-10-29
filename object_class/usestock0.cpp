@@ -5,3 +5,4 @@ int main()
 {
 	Stock fluffy_the_cat;
 }
+
